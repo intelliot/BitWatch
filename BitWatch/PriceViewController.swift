@@ -30,7 +30,7 @@ class PriceViewController: UIViewController {
     updateDate(tracker.cachedDate())
     updatePrice(originalPrice)
     tracker.requestPrice { (price, error) -> () in
-      if error? == nil {
+      if error == nil {
         self.updateDate(NSDate())
         self.updateImage(originalPrice, newPrice: price!)
         self.updatePrice(price!)

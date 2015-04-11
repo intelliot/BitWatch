@@ -67,9 +67,9 @@ public class Tracker {
     let task = session.dataTaskWithRequest(request, completionHandler: { (data, response, error) -> Void in
       if error == nil {
         var JSONError: NSError?
-        let responseDict = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.AllowFragments, error: &JSONError) as NSDictionary
+        let responseDict = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.AllowFragments, error: &JSONError) as! NSDictionary
         if JSONError == nil {
-          let price: NSNumber = responseDict["24h_avg"] as NSNumber
+          let price: NSNumber = responseDict["24h_avg"] as! NSNumber
           self.defaults.setObject(price, forKey: "price")
           self.defaults.setObject(NSDate(), forKey: "date")
           self.defaults.synchronize()
