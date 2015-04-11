@@ -8,6 +8,8 @@
         <mutableArray key="MesloLGS-Regular.ttf">
             <string>MesloLGS-Regular</string>
             <string>MesloLGS-Regular</string>
+            <string>MesloLGS-Regular</string>
+            <string>MesloLGS-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -19,6 +21,17 @@
                         <label alignment="center" text="$0.00" textAlignment="center" id="djc-cd-6Y4">
                             <fontDescription key="font" name="MesloLGS-Regular" family="Meslo LG S" pointSize="30"/>
                         </label>
+                        <group width="1" alignment="left" id="2Ai-2n-rof">
+                            <items>
+                                <imageView width="32" height="32" alignment="center" verticalAlignment="center" id="ng4-NQ-qld"/>
+                                <label alignment="center" verticalAlignment="center" text="1 BTC" id="qSg-F0-Jea">
+                                    <fontDescription key="font" name="MesloLGS-Regular" family="Meslo LG S" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <label alignment="center" verticalAlignment="bottom" text="Last Updated" textAlignment="center" id="9J8-sU-XMw">
+                            <fontDescription key="font" name="MesloLGS-Regular" family="Meslo LG S" pointSize="13"/>
+                        </label>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="Refresh" id="dTK-6X-QgJ">
                             <fontDescription key="font" name="MesloLGS-Regular" family="Meslo LG S" pointSize="16"/>
                             <connections>
@@ -27,6 +40,8 @@
                         </button>
                     </items>
                     <connections>
+                        <outlet property="image" destination="ng4-NQ-qld" id="3NI-U9-awu"/>
+                        <outlet property="lastUpdatedLabel" destination="9J8-sU-XMw" id="ont-gu-aPX"/>
                         <outlet property="priceLabel" destination="djc-cd-6Y4" id="8ut-0y-UPp"/>
                     </connections>
                 </controller>
