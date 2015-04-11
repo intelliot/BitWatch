@@ -22,6 +22,11 @@
 		840D836F1AD99403006CC868 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840D836D1AD99403006CC868 /* Interface.storyboard */; };
 		840D83711AD99403006CC868 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840D83701AD99403006CC868 /* Images.xcassets */; };
 		840D83741AD99403006CC868 /* BitWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 840D835C1AD99403006CC868 /* BitWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		840D838C1AD99DF7006CC868 /* BitWatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B876BB31A1CA05900A76FAF /* BitWatchKit.framework */; };
+		840D838D1AD9A489006CC868 /* MesloLGS-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840D83881AD99A64006CC868 /* MesloLGS-Bold.ttf */; };
+		840D838E1AD9A489006CC868 /* MesloLGS-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840D83891AD99A64006CC868 /* MesloLGS-BoldItalic.ttf */; };
+		840D838F1AD9A489006CC868 /* MesloLGS-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840D838A1AD99A64006CC868 /* MesloLGS-Italic.ttf */; };
+		840D83901AD9A489006CC868 /* MesloLGS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840D838B1AD99A64006CC868 /* MesloLGS-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840D838C1AD99DF7006CC868 /* BitWatchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +418,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840D838D1AD9A489006CC868 /* MesloLGS-Bold.ttf in Resources */,
+				840D838E1AD9A489006CC868 /* MesloLGS-BoldItalic.ttf in Resources */,
 				840D836F1AD99403006CC868 /* Interface.storyboard in Resources */,
+				840D83901AD9A489006CC868 /* MesloLGS-Regular.ttf in Resources */,
+				840D838F1AD9A489006CC868 /* MesloLGS-Italic.ttf in Resources */,
 				840D83711AD99403006CC868 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,7 +702,6 @@
 				);
 				IBSC_MODULE = BitWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "BitWatch WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -709,7 +718,6 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = BitWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "BitWatch WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;

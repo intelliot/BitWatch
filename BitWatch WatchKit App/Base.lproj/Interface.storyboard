@@ -21,8 +21,14 @@
                         </label>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="Refresh" id="dTK-6X-QgJ">
                             <fontDescription key="font" name="MesloLGS-Regular" family="Meslo LG S" pointSize="16"/>
+                            <connections>
+                                <action selector="refreshTapped" destination="AgC-eL-Hgc" id="q5j-NC-xGs"/>
+                            </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="priceLabel" destination="djc-cd-6Y4" id="8ut-0y-UPp"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>
