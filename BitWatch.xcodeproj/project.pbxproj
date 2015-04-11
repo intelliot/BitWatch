@@ -95,6 +95,10 @@
 		840D836C1AD99403006CC868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840D836E1AD99403006CC868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		840D83701AD99403006CC868 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840D83881AD99A64006CC868 /* MesloLGS-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MesloLGS-Bold.ttf"; sourceTree = "<group>"; };
+		840D83891AD99A64006CC868 /* MesloLGS-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MesloLGS-BoldItalic.ttf"; sourceTree = "<group>"; };
+		840D838A1AD99A64006CC868 /* MesloLGS-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MesloLGS-Italic.ttf"; sourceTree = "<group>"; };
+		840D838B1AD99A64006CC868 /* MesloLGS-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MesloLGS-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,7 @@
 			children = (
 				840D836D1AD99403006CC868 /* Interface.storyboard */,
 				840D83701AD99403006CC868 /* Images.xcassets */,
+				840D83871AD99A64006CC868 /* Fonts */,
 				840D836B1AD99403006CC868 /* Supporting Files */,
 			);
 			path = "BitWatch WatchKit App";
@@ -228,6 +233,17 @@
 				840D836C1AD99403006CC868 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840D83871AD99A64006CC868 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				840D83881AD99A64006CC868 /* MesloLGS-Bold.ttf */,
+				840D83891AD99A64006CC868 /* MesloLGS-BoldItalic.ttf */,
+				840D838A1AD99A64006CC868 /* MesloLGS-Italic.ttf */,
+				840D838B1AD99A64006CC868 /* MesloLGS-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
