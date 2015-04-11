@@ -1,11 +1,3 @@
-//
-//  Tracker.swift
-//  BitWatch
-//
-//  Created by Mic Pringle on 19/11/2014.
-//  Copyright (c) 2014 Razeware LLC. All rights reserved.
-//
-
 import Foundation
 
 public typealias PriceRequestCompletionBlock = (price: NSNumber?, error: NSError?) -> ()
