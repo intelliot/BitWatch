@@ -400,7 +400,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
-				ORGANIZATIONNAME = "Razeware LLC";
+				ORGANIZATIONNAME = intelliot;
 				TargetAttributes = {
 					7B876B631A1C9F2D00A76FAF = {
 						CreatedOnToolsVersion = 6.2;
@@ -421,7 +421,6 @@
 					};
 					841FA84E1ADA47300038DFA3 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 7B876B631A1C9F2D00A76FAF;
 					};
 				};
 			};
@@ -822,7 +821,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitWatch.app/BitWatch";
 			};
 			name = Debug;
 		};
@@ -840,7 +838,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitWatch.app/BitWatch";
 			};
 			name = Release;
 		};
