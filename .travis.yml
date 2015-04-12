@@ -1,4 +1,5 @@
 language: objective-c
 xcode_project: BitWatch.xcodeproj
 xcode_scheme: BitWatch Tests
+xcode_sdk: iphonesimulator
 
