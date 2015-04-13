@@ -1,0 +1,15 @@
+PODS:
+  - coinbase-official (2.1.2):
+    - coinbase-official/client (= 2.1.2)
+    - coinbase-official/OAuth (= 2.1.2)
+  - coinbase-official/client (2.1.2):
+    - coinbase-official/OAuth
+  - coinbase-official/OAuth (2.1.2)
+
+DEPENDENCIES:
+  - coinbase-official
+
+SPEC CHECKSUMS:
+  coinbase-official: 36eb1ed3f43e8a5597ce89eac1e53f1a6d5a1af0
+
+COCOAPODS: 0.36.3
