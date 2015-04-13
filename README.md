@@ -1,3 +1,3 @@
 # Bitcoin for Apple Watch
 
-[![Build Status](https://travis-ci.org/intelliot/BitWatch.svg?branch=master)](https://travis-ci.org/intelliot/BitWatch)
+<img src='https://app.ship.io/jobs/p8mJRJBooQV5-5Jq/build_status.png'/>
