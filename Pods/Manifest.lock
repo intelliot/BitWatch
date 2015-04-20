@@ -12,4 +12,4 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   coinbase-official: 36eb1ed3f43e8a5597ce89eac1e53f1a6d5a1af0
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.37.0.beta.1
